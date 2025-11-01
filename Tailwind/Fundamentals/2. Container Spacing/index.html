@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Container & Spacing</title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Margin -->
+    <!-- https://tailwindcss.com/docs/margin -->
+    <h3>1. Margin</h3>
+    <div class="m-1 bg-teal-100">Margin all Around</div>
+    <div class="mx-4 bg-yellow-200">Margin from X axies</div>
+    <div class="my-4 bg-pink-200">Margin from Y axies</div>
+    <div class="mt-6 bg-red-200">Margin Top</div>
+    <div class="mr-4 bg-yellow-200">Margin Right</div>
+    <div class="ml-4 bg-green-200">Margin Left</div>
+    <div class="mb-4 bg-teal-200">Margin Bottom</div>
+
+    <!-- Arbitrary Spacing -->
+    <div class="m-[100px] bg-slate-200">2. Margin all Around</div>
+
+    <!-- Padding -->
+    <!-- https://tailwindcss.com/docs/padding -->
+    <h3>3.Padding</h3>
+    <div class="p-4 bg-lime-50">Padding All Around</div>
+    <div class="px-4 bg-lime-100">Padding X axies</div>
+    <div class="py-4 bg-lime-200">Padding Y Axies</div>
+    <div class="pt-4 bg-lime-300">Padding Top</div>
+    <div class="pr-4 bg-lime-400">Padding Right</div>
+    <div class="pl-4 bg-lime-500">Padding left</div>
+    <div class="pb-[25px] bg-lime-600">Padding Bottom</div>
+
+    <!-- https://tailwindcss.com/docs/space -->
+    <!-- Space Between X -->
+    <h3>Space Between X</h3>
+    <div class="flex space-x-4">
+      <div class="p-3 bg-teal-100">01</div>
+      <div class="p-3 bg-teal-200">02</div>
+      <div class="p-3 bg-teal-300">03</div>
+    </div>
+    <!-- <!-300pace Between Y -->
+ <h3>Space Between Y</h3>
+    <div class="flex flex-col space-y-3">
+      <div class="p-3 bg-teal-100">01</div>
+      <div class="p-3 bg-teal-200">02</div>
+      <div class="p-3 bg-teal-300">03</div>
+    </div>
+
+  </body>
+</html>

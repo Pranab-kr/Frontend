@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Flex</title>
+  </head>
+  <body>
+    <!-- flexbox -->
+    <!-- https://tailwindcss.com/docs/flex -->
+
+    <div class="border m-10 shadow-md">
+      <ul class="flex">
+        <li class="bg-teal-100 m-5 p-5">01</li>
+        <li class="bg-teal-100 m-5 p-5">02</li>
+        <li class="bg-teal-100 m-5 p-5">03</li>
+        <li class="bg-teal-100 m-5 p-5">04</li>
+        <li class="bg-teal-100 m-5 p-5">05</li>
+      </ul>
+    </div>
+
+    <!-- Direction Flex -->
+    <!-- https://tailwindcss.com/docs/flex-direction#column -->
+
+        <div class="border m-10 shadow-md">
+      <ul class="flex flex-col">
+        <li class="bg-teal-100 m-5 p-5">01</li>
+        <li class="bg-teal-100 m-5 p-5">02</li>
+        <li class="bg-teal-100 m-5 p-5">03</li>
+        <li class="bg-teal-100 m-5 p-5">04</li>
+        <li class="bg-teal-100 m-5 p-5">05</li>
+      </ul>
+    </div>
+
+
+    <!-- https://tailwindcss.com/docs/justify-items -->
+
+    <div class="border m-10 shadow-md">
+      <ul class="flex justify-around">
+        <li class="bg-teal-100 m-5 p-5">01</li>
+        <li class="bg-teal-100 m-5 p-5">02</li>
+        <li class="bg-teal-100 m-5 p-5">03</li>
+        <li class="bg-teal-100 m-5 p-5">04</li>
+        <li class="bg-teal-100 m-5 p-5">05</li>
+      </ul>
+    </div>
+
+
+    <!-- https://tailwindcss.com/docs/order -->
+
+    <div class="border m-10 shadow-md">
+      <ul class="flex">
+        <li class="bg-teal-100 m-5 p-5 order-5">01</li>
+        <li class="bg-teal-100 m-5 p-5 order-4">02</li>
+        <li class="bg-teal-100 m-5 p-5 order-3">03</li>
+        <li class="bg-teal-100 m-5 p-5 order-2">04</li>
+        <li class="bg-teal-100 m-5 p-5 order-1">05</li>
+      </ul>
+    </div>
+
+    <!-- Grow and shrink -->
+    <!-- https://tailwindcss.com/docs/flex-shrink -->
+
+    <div class="border m-10 shadow-md">
+      <ul class="flex w-100">
+        <li class="bg-teal-100 m-3 p-5 flex-none">01</li>
+        <li class="bg-teal-100 m-3 p-5 flex-initial">02</li>
+        <li class="bg-teal-100 m-3 p-5 flex-auto">03</li>
+        <li class="bg-teal-100 m-3 p-5 flex-1">04</li>
+        <li class="bg-teal-100 m-3 p-5 ">05</li>
+        <li class="bg-teal-100 m-3 p-5 ">06</li>
+        <li class="bg-teal-100 m-3 p-5 ">07</li>
+      </ul>
+    </div>
+
+
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Borders</title>
+  </head>
+  <body>
+    <!-- Border Width & Colors -->
+    <!-- https://tailwindcss.com/docs/border-width -->
+    <div class="border-2 border-green-100 m-10">
+      <div class="w-96 m-3 p-5 border">Border all around</div>
+      <div class="w-96 m-3 p-5 border-4">Border width</div>
+      <div class="w-96 m-3 p-5 border-4 border-red-500">color Border</div>
+      <div class="w-96 m-3 p-5 border-x-4 border-red-500">Border X Axies</div>
+      <div class="w-96 m-3 p-5 border-y-4 border-red-500">Border Y Axies</div>
+      <div class="w-96 m-3 p-5 border-r-4 border-cyan-500">Border Right</div>
+      <div class="w-96 m-3 p-5 border-l-4 border-cyan-500">Border left</div>
+      <div class="w-96 m-3 p-5 border-t-4 border-cyan-500">Border Top</div>
+      <div class="w-96 m-3 p-5 border-b-4 border-cyan-500">Border Bottom</div>
+    </div>
+
+    <!-- Border Radius -->
+    <!-- https://tailwindcss.com/docs/border-radius -->
+    <h1 class="mt-[20px] ml-6">Border Radius</h1>
+    <div class="border-2 border-green-300 m-10">
+      <div class="w-96 m-3 p-5 bg-teal-200 rounded">Border Rounded</div>
+      <div class="w-96 m-3 p-5 bg-teal-200 rounded-lg">Border Rounded-lg</div>
+      <div class="w-96 m-3 p-5 bg-teal-200 rounded-xl">Border Rounded-xl</div>
+      <div class="w-96 m-3 p-5 bg-teal-200 rounded-2xl">Border Rounded-2xl</div>
+      <div class="w-96 m-3 p-5 bg-teal-200 rounded-3xl">Border Rounded-3xl</div>
+      <div class="w-96 m-3 p-5 bg-teal-200 rounded-full">
+        Border Rounded-full
+      </div>
+    </div>
+
+    <!-- Specific Sides -->
+    <h1 class="m-5">Specific Sides</h1>
+    <div class="w-96 m-3 p-5 bg-teal-200 rounded-t-xl">Border Top Round</div>
+    <div class="w-96 m-3 p-5 bg-teal-200 rounded-b-xl">Border Bottom Round</div>
+    <div class="w-96 m-3 p-5 bg-teal-200 rounded-l-xl">Border left Round</div>
+    <div class="w-96 m-3 p-5 bg-teal-200 rounded-r-xl">Border Right Round</div>
+  </body>
+</html>

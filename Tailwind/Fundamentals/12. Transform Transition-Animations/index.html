@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Transform & Transition</title>
+  </head>
+  <body class="p-10">
+    <!-- No Transition -->
+
+    <button class="p-5 text-white font-bold text-[15px] bg-cyan-400 hover:bg-cyan-700">
+      No Transition
+    </button>
+
+
+    <!-- Transition -->
+    <!-- 1. https://tailwindcss.com/docs/transition-property -->
+    <!-- 2. https://tailwindcss.com/docs/transition-duration -->
+    <!-- 3. https://tailwindcss.com/docs/transition-timing-function -->
+    <!-- 4. https://tailwindcss.com/docs/transition-delay -->
+    <!-- 5. https://tailwindcss.com/docs/animation -->
+
+    <!-- Transition & Transform -->
+    <button class="p-5 text-white font-bold text-[15px] bg-cyan-400 transition hover:bg-cyan-700 duration-300 ease-in-out dealy-150 text-white">
+    Transition
+    </button>
+
+    <!-- transition -->
+
+    <button class="p-5 ml-5 text-white bg-cyan-400 transition ease-in-out dealy-150 duration-1000 hover:-translate-y-1 hover:scale-110 hover:bg-green-500">Transition</button>
+
+    <!-- Animation -->
+
+    <div class="flex justify-center">
+      <div class="p-20 ml-20 mt-20 w-20 bg-teal-200 animate-spin">Spin</div>
+      <div class="p-20 ml-20 mt-20 w-20 bg-teal-200 animate-ping">ping</div>
+      <div class="p-20 ml-20 mt-20 w-20 bg-teal-200 animate-pulse">pulse</div>
+      <div class="p-20 ml-20 mt-20 w-20 bg-teal-200 animate-bounce">bounce</div>
+    </div>
+
+    <!-- With Transition -->
+    <button class="p-5 text-white bg-green-400 hover:bg-green-700 transition duration-500 ease-in-out">
+      Smooth Transition
+    </button>
+
+    <!-- Transform + Transition -->
+    <button class="p-5 text-white bg-purple-500 hover:bg-purple-700 transform hover:scale-110 transition duration-300 ease-in-out">
+      Scale on Hover
+    </button>
+
+    <!-- Rotation + Transition -->
+    <button class="p-5 text-white bg-red-500 hover:bg-red-700 transform hover:rotate-12 transition duration-300">
+      Rotate on Hover
+    </button>
+
+  </body>
+</html>
