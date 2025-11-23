@@ -1,0 +1,17 @@
+.color-title {
+  margin-top: 2rem;
+}
+
+.all {
+  background: linear-gradient(blue, crimson);
+}
+
+.colors-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.mt {
+  margin-top: 1rem;
+}
